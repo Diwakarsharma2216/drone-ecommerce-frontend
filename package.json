@@ -1,5 +1,6 @@
 {
   "name": "drone_site",
+  "description": "Drone E-Commerce platform for BCA 2026 submission",
   "private": true,
   "version": "0.0.0",
   "type": "module",

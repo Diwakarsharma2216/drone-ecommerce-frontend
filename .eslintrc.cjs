@@ -18,3 +18,4 @@ module.exports = {
     ],
   },
 }
+// ESLint Configuration for BCA Project
