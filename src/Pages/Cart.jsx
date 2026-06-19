@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Footer from "../Components/Footer.jsx"
 import Navbar from '../Components/Navbar';
-import { Box, Center, Flex, Heading, Text, Image, ButtonGroup, Button, IconButton, Spinner, Radio, Checkbox, RadioGroup, Stack, Switch } from '@chakra-ui/react';
+import { Box, Center, Flex, Heading, Text, Image, ButtonGroup, Button, IconButton, Spinner } from '@chakra-ui/react';
 import { AddIcon, DeleteIcon, MinusIcon } from '@chakra-ui/icons';
 import axios from 'axios';
-
-
-
 const Cart = () => {
 
     const BASE_URL = import.meta.env.VITE_BASEURL

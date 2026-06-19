@@ -1,18 +1,21 @@
-# DJI Official Website Clone
+# Development of a Drone E-Commerce Website Using MERN Stack Technology
+
+## Academic Project Submission
+**BCA 2026 Project**
 
 ## Live Demo
-[DJI Official Website Clone](https://dji-air.vercel.app/)
+[Drone E-Commerce Platform](https://dji-air.vercel.app/)
 
 ## Overview
-This project is a fully functional clone of the DJI official website, built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The clone replicates the same user interface and functionality as the original DJI website, including complete email authentication and payment processing.
+This project is a fully functional Drone E-Commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform provides a comprehensive user experience for browsing, selecting, and purchasing drones, including complete email authentication and payment processing.
 
 ![Homepage](./App_Assets//home2.png)
 
 ## Features
 - **User Authentication**: Secure email authentication with JWT.
 - **Payment Processing**: Seamless integration with Razorpay for handling payments.
-- **Identical UI**: Same look and feel as the original DJI website.
-- **Product Management**: Add, edit, and delete products.
+- **Dynamic Product Presentations**: Interactive UI to explore drone features.
+- **Product Management**: Admin interface to add, edit, and delete products.
 - **Cloud Storage**: Images are stored using Cloudinary.
 - **Email Notifications**: Automated emails using Nodemailer and SMTP transport.
 - **Responsive Design**: Mobile-friendly design using Chakra UI.
@@ -23,87 +26,59 @@ This project is a fully functional clone of the DJI official website, built usin
 | React.js  | Node.js    | Cloudinary                |
 | Chakra UI | Express.js | Razorpay                  |
 | Axios     | MongoDB    | Netlify                   |
-|           | CORS       | Render                    |
-|           | JWT        | EJS                       |
+| Vite      | CORS       | Render                    |
+| Zustand   | JWT        | EJS                       |
 |           | bcrypt     | Multer                    |
 |           |            | Nodemailer SMTP transport |
 
+## Functionality Overview
 
+### Homepage
+The homepage displays featured products and promotional banners, providing users with a quick overview of the latest drone technologies.
 
-# Functionality
-## Homepage
-
-### Prototype Screenshots 👇
 ![Homepage](./App_Assets/home.png)
 
-The homepage displays featured products and promotional banners, providing users with a quick overview of the latest DJI products.
+### Product Listing
+Users can browse through a wide range of drone products, categorized into Camera Drones and Handheld devices.
 
+![Product Listing](./App_Assets/product_list.png)
 
-## Product Listing
+### Product Details
+Detailed product information, including advanced specifications, dynamic feature tours, and pricing.
 
-### Prototype Screenshots 👇
-![Homepage](./App_Assets/product_list.png)
+![Product Details](./App_Assets/product_details.png)
 
-Users can browse through a wide range of products, each with detailed descriptions and high-quality images.
-
-
-## Product Details
-
-### Prototype Screenshots 👇
-![Homepage](./App_Assets/product_details.png)
-
-Detailed product information, including specifications, price, and user reviews.
-
-
-## User Authentication
-
-### Prototype Screenshots 👇
-
-- **registration**
-
-![Homepage](./App_Assets/signup.png)
-
-- **login**
-
-![Homepage](./App_Assets/login.png)
-
+### User Authentication
 Secure login and registration system with JWT-based authentication.
 
+**Registration:**
+![Registration](./App_Assets/signup.png)
 
-## Payment Processing
+**Login:**
+![Login](./App_Assets/login.png)
 
-### Prototype Screenshots 👇
-![Homepage](./App_Assets/razorpayy.png)
+### Payment Processing
+Seamless integration with Razorpay for a secure and smooth checkout experience.
 
-Seamless integration with Razorpay for secure payment processing.
+![Payment Processing](./App_Assets/razorpayy.png)
 
+### Admin Dashboard
+Admin users have exclusive access to manage the platform's inventory, including adding, editing, and deleting products.
 
-## Admin Dashboard
+**Admin Auth:**
+![Admin Auth](./App_Assets/admin_auth.png)
 
-### Prototype Screenshots 👇
+**Admin Panel:**
+![Admin Panel](./App_Assets/admin_panel.png)
 
-- **Adin Auth**
-
-![adin_Auth](./App_Assets/admin_auth.png)
-
-- **Adin Panel**
-
-![admin_panel](./App_Assets/admin_panel.png)
-
-Admin users can manage products, including adding new products, editing existing ones, and deleting products.
-
+## Installation & Setup
+1. Clone the repository: `git clone <repository_url>`
+2. Navigate to the project directory: `cd drone-ecommerce-frontend`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
 
 ## Deployment
-
-### Prototype Screenshots 👇
-
-
-The project is deployed on Netlify(frontend) and Render(backend) for seamless access and performance.
-
-## Contribution
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+The project frontend is configured for deployment on Netlify, while the backend API is hosted on Render.
 
 ## License
-This project is licensed under the MIT License.
-
-<!-- sa -->
+This project is developed for academic purposes as part of the BCA curriculum.
